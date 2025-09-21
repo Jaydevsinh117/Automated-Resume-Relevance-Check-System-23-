@@ -1,0 +1,42 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# ---- Virtual environment ----
+venv/
+.env/
+.env.bak
+*.env
+
+# ---- Jupyter / IPython ----
+.ipynb_checkpoints/
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+
+# ---- FastAPI / Uvicorn ----
+*.sqlite3
+*.db
+
+# ---- System / IDE ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Build / Packaging ----
+build/
+dist/
+*.spec
+
+# ---- Project specific ----
+logs/
+samples/resume.pdf
